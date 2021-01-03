@@ -12,6 +12,9 @@ Hack with Python
   ftp_rull.py is a code that communicates with the Windows xp computer in a virtual machine by inputting an id and password.
 
   The ftp_exploit.py file provides FTP communication and runs a calculator on the victim's computer.
+  
+# 2. About HTTP
+  http_exploit(38526).py is a program that allows an HTTP server to run a calculator on the victim's computer where it is open.
 
 # WARN
 All code materials were written while studying as students and may contain some misinformation.

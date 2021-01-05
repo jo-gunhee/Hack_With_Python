@@ -1,3 +1,4 @@
+'''
 import sys
 import os
 
@@ -30,3 +31,4 @@ def reg_add():
 
 if __name__ == "__main__":
     reg_add()
+'''
